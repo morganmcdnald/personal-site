@@ -1,0 +1,36 @@
+---
+import heroImg from '../images/blob.png';
+import arrow from '../images/arrow.svg';
+import '../styles/hero.css';
+
+export interface Props {
+  headingOne?: string;
+  headingTwo?: string;
+  headingThree?: string;
+}
+
+const {
+  headingOne = 'morgan mcdonald',
+  headingTwo = 'developer & designer',
+  headingThree = 'glasgow, scotland',
+} = Astro.props as Props;
+---
+
+<div class='container'>
+  <section class='hero'>
+    <div class='hero__text'>
+      <div class='hero__text__wrapper'>
+        <h1>{headingOne}</h1>
+        <h2>{headingTwo}</h2>
+        <h3>{headingThree}</h3>
+      </div>
+      <div class='hero__text__button'>
+        <a href='#work'>view my work <img src={arrow.src} /></a>
+      </div>
+    </div>
+
+    <div class='hero__image'>
+      <img src={heroImg.src} alt='' />
+    </div>
+  </section>
+</div>

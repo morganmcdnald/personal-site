@@ -1,0 +1,33 @@
+.header {
+  height: 100px;
+  background-color: var(background-color);
+
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  img {
+    height: 50px;
+    vertical-align: middle;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      li {
+        padding: 0 20px;
+        &:last-of-type {
+          padding: 0 5px 0 20px;
+        }
+        a {
+          color: #fff;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}

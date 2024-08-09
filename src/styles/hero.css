@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  position: relative;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 125px;
+}
+.hero__text h1 {
+  font-size: 92px;
+  padding-bottom: 10px;
+}
+.hero__text h2 {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+.hero__text h3 {
+  font-size: 32px;
+}
+.hero__text__button {
+  padding-top: 125px;
+}
+.hero__text__button a {
+  font-size: 24px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.hero__text__button a img {
+  width: 30px;
+  margin-left: 10px;
+  transition: transform 0.4s ease;
+}
+.hero__text__button a:hover img {
+  transform: translateX(5px);
+}
+.hero__image {
+  position: absolute;
+  right: -100px;
+  z-index: -1;
+}
+.hero__image img {
+  width: 750px;
+  transform: rotate(-10deg);
+  position: relative;
+  z-index: -1;
+  margin-top: -20px;
+}/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,28 @@
+.header {
+  height: 100px;
+  background-color: var(background-color);
+}
+.header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header img {
+  height: 50px;
+  vertical-align: middle;
+}
+.header nav ul {
+  display: flex;
+}
+.header nav ul li {
+  padding: 0 20px;
+}
+.header nav ul li:last-of-type {
+  padding: 0 5px 0 20px;
+}
+.header nav ul li a {
+  color: #fff;
+  font-size: 28px;
+}/*# sourceMappingURL=header.css.map */

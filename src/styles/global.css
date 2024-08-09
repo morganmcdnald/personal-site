@@ -1,0 +1,56 @@
+:root {
+  --primary-colour: #fff;
+  --secondary-coloir: #000;
+  --background-colour: #100019;
+}
+
+@font-face {
+  font-family: "ClassyVouge";
+  src: url("/fonts/ClassyVogue.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--background-colour);
+  color: var(--primary-colour);
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+  color: var(--primary-colour);
+  font-family: "ClassyVouge", serif;
+  font-weight: lighter;
+}
+body p {
+  margin: 1rem 0;
+}
+body ul {
+  list-style: none;
+}
+body ul li {
+  line-height: 2;
+}
+body h1,
+body h2,
+body h3 {
+  line-height: 1.2;
+  font-family: "ClassyVouge", serif;
+  font-weight: lighter;
+}
+body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+  position: relative;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 125px;
+    h1 {
+      font-size: 92px;
+      padding-bottom: 10px;
+    }
+    h2 {
+      font-size: 40px;
+      padding-bottom: 5px;
+    }
+    h3 {
+      font-size: 32px;
+    }
+    &__button {
+      padding-top: 125px;
+      a {
+        font-size: 24px;
+        display: flex;
+        width: fit-content;
+        img {
+          width: 30px;
+          margin-left: 10px;
+          transition: transform 0.4s ease;
+        }
+        &:hover {
+          img {
+            transform: translateX(5px);
+          }
+        }
+      }
+    }
+  }
+  &__image {
+    position: absolute;
+    right: -100px;
+    z-index: -1;
+    img {
+      width: 750px;
+      transform: rotate(-10deg);
+      position: relative;
+      z-index: -1;
+      margin-top: -20px;
+    }
+  }
+}
