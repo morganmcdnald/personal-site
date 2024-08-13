@@ -1,0 +1,67 @@
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 60px 30px;
+}
+.footer__left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.footer__left__top a {
+  margin-right: 30px;
+  transition: color 0.4s ease;
+}
+.footer__left__top a i {
+  font-size: 30px;
+}
+.footer__left__top a:hover {
+  color: #7a00c1;
+}
+.footer__left__bottom {
+  padding-top: 25px;
+}
+.footer__left__bottom a {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "CalibreReg", sans-serif;
+  transition: color 0.4s ease;
+}
+.footer__left__bottom a i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.footer__left__bottom a:hover {
+  color: #7a00c1;
+}
+.footer__right {
+  max-width: 35vw;
+}
+.footer__right p {
+  letter-spacing: 0.5px;
+  font-family: "CalibreLight", sans-serif;
+  color: #cbcbcb;
+  margin-top: 0;
+}
+.footer__right p a {
+  margin-right: 0;
+  font-family: "CalibreReg", sans-serif;
+  color: #e9e9e9;
+  transition: color 0.4s ease;
+}
+.footer__right p a:hover {
+  color: #7a00c1;
+  text-decoration: none;
+}
+.footer__right a {
+  font-family: "CalibreLight", sans-serif;
+  margin-right: 25px;
+  color: #cbcbcb;
+}
+.footer__right a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.css.map */
