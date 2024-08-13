@@ -1,0 +1,45 @@
+.about {
+  padding: 100px 30px;
+  h3 {
+    font-size: 38px;
+    margin-bottom: 25px;
+  }
+  .about-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  &__text {
+    width: 65%;
+    p {
+      font-size: 18px;
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+  }
+  &__skills {
+    margin-left: 150px;
+    h4 {
+      font-size: 24px;
+      font-family: 'CalibreBold', sans-serif;
+      letter-spacing: 1.5px;
+      margin-top: -3px;
+      margin-bottom: 10px;
+    }
+    .skill {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      i {
+        font-size: 20px;
+        margin-right: 8px;
+      }
+      img {
+        width: 20px;
+        margin-right: 8px;
+      }
+      font-size: 18px;
+      font-family: 'CalibreReg', sans-serif;
+    }
+  }
+}
