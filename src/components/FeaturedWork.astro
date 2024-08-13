@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import Card from './Card.astro';
+// const projects = await Astro.glob('../content/projects/*.md');
+const projects: CollectionEntry<'projects'>[] = (
+  await getCollection('projects')
+).sort(
+  (a: CollectionEntry<'projects'>, b: CollectionEntry<'projects'>) =>
+    a.data.priority - b.data.priority
+);
+---
+
+<section class='featured-work'>
+  <div class='container'>
+    {
+      projects.map((project) => (
+        <Card
+          title={project.data.title}
+          excerpt={project.data.excerpt}
+          featuredImg={project.data.featuredImg}
+          tags={project.data.tags}
+          slug={project.slug}
+        />
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .featured-work {
+    margin-top: 250px;
+  }
+</style>

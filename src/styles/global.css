@@ -11,6 +11,34 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "CalibreReg";
+  src: url("/fonts/Calibre-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CalibreBold";
+  src: url("/fonts/Calibre-Semibold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CalibreThin";
+  src: url("/fonts/Calibre-Thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CalibreLight";
+  src: url("/fonts/Calibre-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 *,
 *::before,
 *::after {
@@ -20,7 +48,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "CalibreReg", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--background-colour);
@@ -44,7 +72,8 @@ body ul li {
 }
 body h1,
 body h2,
-body h3 {
+body h3,
+body h4 {
   line-height: 1.2;
   font-family: "ClassyVouge", serif;
   font-weight: lighter;

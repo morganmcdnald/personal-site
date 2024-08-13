@@ -1,0 +1,82 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 0;
+}
+.card img {
+  width: 55%;
+}
+.card__text {
+  text-align: right;
+  padding-left: 25px;
+  position: relative;
+}
+.card__text h5 {
+  letter-spacing: 1px;
+  font-family: "CalibreLight", sans-serif;
+  font-size: 18px;
+}
+.card__text h4 {
+  font-size: 32px;
+  text-transform: lowercase;
+}
+.card__text__excerpt {
+  position: relative;
+  padding: 25px;
+  background-color: #1e012f;
+  margin: 15px 0;
+  width: 125%;
+  left: -25%;
+  box-shadow: 10px 10px 32px -1px rgba(0, 0, 0, 0.82);
+}
+.card__text__excerpt p {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "CalibreLight", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.card__text .tags {
+  margin-bottom: 40px;
+}
+.card__text .tags span {
+  margin: 0 10px;
+  letter-spacing: 1px;
+  font-family: "CalibreLight", sans-serif;
+}
+.card__text .button {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.card__text .button a {
+  font-size: 20px;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: lighter;
+}
+.card__text .button a img {
+  width: 26px;
+  margin-left: 6px;
+  transition: transform 0.4s ease;
+}
+.card__text .button a:hover img {
+  transform: translateX(5px);
+}
+.card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.card:nth-child(even) .card__text {
+  text-align: left;
+  padding-right: 25px;
+  padding-left: 0;
+}
+.card:nth-child(even) .card__text__excerpt {
+  left: 0;
+}
+.card:nth-child(even) .card__text .button {
+  justify-content: left;
+}/*# sourceMappingURL=card.css.map */
