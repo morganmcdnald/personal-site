@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import '../styles/project.css';
 
 export async function getStaticPaths() {
   const projects = await Astro.glob('../content/projects/*.md');
@@ -18,9 +19,9 @@ const { Content, frontmatter } = Astro.props.project;
 ---
 
 <Layout title={frontmatter.title}>
-  <section class='page-content'>
+  <section class='project'>
     <div class='container'>
-      <a href='/'>Back</a>
+      <a href='/'>&larr; Back</a>
       <h2>{frontmatter.title}</h2>
       <Content />
     </div>

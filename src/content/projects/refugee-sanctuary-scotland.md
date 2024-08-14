@@ -1,19 +1,41 @@
 ---
 title: Refugee Sanctuary Scotland
 slug: refugee-sanctuary-scotland
-excerpt: In need of help to overhaul their customer experience, we designed interior and exterior signage, to first transform their customers showroom experience.
+excerpt: Custom built WordPress theme for Refugee Sanctuary Scotland for a complete site overhaul in line with their new branding, with a focus on accessibility and user experience.
 featuredImg: refugeeMain.png
-tags: ['wordpress', 'laravel blade', 'php', 'scss']
+tags: ['wordpress', 'laravel blade', 'php', 'js', 'scss']
 priority: 3
 featured: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet risus vitae dolor pharetra, sed dignissim massa sollicitudin. Nam ac finibus tortor. Aliquam semper tempor eros at finibus. Fusce odio nisi, venenatis nec molestie in, tempus vitae magna. Sed bibendum eros quis odio volutpat, sit amet sodales erat tempus. Proin dignissim ultricies imperdiet. Donec a vestibulum lorem. Suspendisse suscipit neque id risus lobortis vestibulum vitae nec dui. In id odio pretium, feugiat orci a, tincidunt magna. Integer ultricies, elit semper lacinia euismod, nisi velit bibendum est, ut scelerisque augue enim non ante. Aenean tristique interdum neque, ut tristique purus vehicula ut. In pulvinar lacinia ultricies. Nullam eget massa gravida, euismod felis at, lobortis magna. Donec viverra imperdiet sollicitudin. Nullam arcu massa, varius ut orci a, finibus viverra nibh.
+<div class='project__details'>
+    <div class='project__details__left'>
+        <h4><span>Year Built:</span> 2024</h4>
+        <h4><span>Technology Used:</span> WordPress, PHP, Laravel Blade, JavaScript, SCSS, HTML</h4>
+    </div>
+    <div class='project__details__right'>
+        <h4><span>Designed by:</span> <a href='https://www.emmacathiedesign.co.uk/' target="_blank">Emma Cathie</a></h4>
+        <h4><span>Other Developers:</span> <a href='https://rush.computer/' target='_blank'>Rush Johnstone</a></h4>
+    </div>
+</div>
 
-Nullam et vehicula lacus. Phasellus feugiat rhoncus mauris eget condimentum. Quisque sit amet ipsum vehicula, pretium felis vitae, bibendum tellus. Nunc fermentum, nunc sit amet rhoncus pulvinar, augue eros iaculis turpis, nec iaculis dolor velit id lorem. Vestibulum sit amet tellus ultrices, malesuada sapien non, accumsan metus. Aliquam erat volutpat. Cras pretium faucibus sem, a vehicula enim molestie in. In accumsan felis id augue volutpat sodales. Maecenas lobortis dapibus ligula in commodo. Donec dictum mauris eget molestie egestas. Quisque porttitor euismod arcu, vel hendrerit nunc sodales non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vitae hendrerit ipsum. Aliquam eget ultrices felis, imperdiet gravida lacus.
+<div class='site-link'>
+    <h4>Visit Site: </h4>
+    <a href='https://refugeesanctuaryscotland.org.uk/' target='_blank' rel='noopener noreferrer'>https://refugeesanctuaryscotland.org.uk/</a>
+</div>
 
-Maecenas pulvinar diam at vulputate volutpat. Suspendisse eros lorem, tincidunt quis fringilla ut, condimentum non neque. Vivamus eu tempus orci. Cras in ultrices lacus. Curabitur nunc mi, luctus convallis fringilla et, ullamcorper ut lectus. Vivamus non libero mauris. Integer nec libero consectetur, sodales lorem eu, rhoncus nisl. Nulla tempus elit in eros bibendum aliquet. Donec quis lorem ut mauris blandit dapibus eu vel diam. Cras lacus lectus, blandit sed elementum id, suscipit et purus.
+<img class='heroImg' src='./projectImages/refugeeMain.png' alt='Refugee Sanctuary Scotland Hero Image'>
 
-Donec finibus dignissim quam, et ultrices enim bibendum ut. Aenean facilisis eros vitae odio sagittis auctor. Nulla volutpat arcu ac nunc blandit, ac tincidunt neque lobortis. Nam euismod vehicula feugiat. Morbi ultricies velit bibendum massa mattis mollis. Maecenas ut tortor turpis. Curabitur ac laoreet ipsum, eget blandit odio. Nam neque purus, mollis vel tincidunt at, convallis ut dui. In tincidunt sit amet ex a volutpat. Nam dictum, ex in aliquet tristique, metus leo tristique nibh, a dignissim nibh neque ac risus. Suspendisse potenti.
+This was a project I worked on with Rush during my time as Senior Developer at Cole AD. This project came to us after the design team had created a successful rebrand and the client decided to use us to create a brand new website to match.
 
-Quisque ullamcorper non ligula a aliquam. Vivamus consequat arcu eget suscipit lobortis. Duis semper cursus maximus. Ut elementum pulvinar urna pellentesque eleifend. Aliquam in efficitur ante, sed sagittis augue. Sed convallis id orci vel sagittis. Nullam elementum sit amet orci at rutrum. Curabitur vel quam sed ante scelerisque accumsan in quis felis. Vivamus ac sem ac urna posuere hendrerit. Ut ut lectus sit amet felis tempus semper. Nullam dapibus, mi sit amet laoreet viverra, odio neque aliquet lorem, varius dictum tellus neque in urna. Quisque suscipit velit nec nisi elementum, sed congue nunc hendrerit. Nunc eu vehicula nulla, ac tincidunt massa. Sed a pulvinar urna. Morbi consequat at turpis sit amet hendrerit.
+As Rush was working part-time during the build of this site, I took the lead on the build however the finished product was very much a team effort. With each passing project, we got better at working with each other and it reflected in our results.
+
+The site was designed by one of the designers at Cole AD, Emma Cathie. Initially, a full rebrand for the client formerly known as Refugee Survival Trust, which then rolled into a brand new site with a full design using the new branding.
+
+Once we had the site design, Rush and I divvied up the tasks needed to be completed between ourselves and got to work. Each of us had our own list to complete, but were helping each other out so in the end we both had input and work in all aspects of the site.
+
+This was one of the first sites we undertook together with me as the Senior Developer, so it was a bit of a learning curve for me in making sure that deadlines were being met, keeping up the communication with the rest of the team and client, and delegating tasks where necessary. Looking back, I think I handled this well as the end result was one we are proud of, and there were no major issues on our end to speak of. This has definitely helped me and my skills as a developer going forward.
+
+Multiple custom post types were integrated into the site, for things like projects, reports and case studies. Each of these custom post types have their own custom archive page as well as individual layout, with filters between different categories within. Also added into the site was <a href='https://splidejs.com/' target='_blank'>Splide</a> for use of custom carousels, and <a href='https://www.gravityforms.com/' target='_blank'>Gravity Forms</a> for creating custom forms for contact us and referral applications.
+
+View some images of the site below, or take a look for yourself at <a href='https://refugeesanctuaryscotland.org.uk/' target='_blank' rel='noopener noreferrer'>https://refugeesanctuaryscotland.org.uk/</a>.

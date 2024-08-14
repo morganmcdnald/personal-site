@@ -1,19 +1,43 @@
 ---
 title: The Kitchen Depot
 slug: the-kitchen-depot
-excerpt: In need of help to overhaul their customer experience, we designed interior and exterior signage, to first transform their customers showroom experience.
+excerpt: Custom built WordPress theme for The Kitchen Depot for a fresher look and an easier to manage site, with a focus on user experience.
 featuredImg: tkdMain.png
-tags: ['wordpress', 'laravel blade', 'php', 'scss']
+tags: ['wordpress', 'laravel blade', 'php', 'js', 'scss']
 priority: 2
 featured: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet risus vitae dolor pharetra, sed dignissim massa sollicitudin. Nam ac finibus tortor. Aliquam semper tempor eros at finibus. Fusce odio nisi, venenatis nec molestie in, tempus vitae magna. Sed bibendum eros quis odio volutpat, sit amet sodales erat tempus. Proin dignissim ultricies imperdiet. Donec a vestibulum lorem. Suspendisse suscipit neque id risus lobortis vestibulum vitae nec dui. In id odio pretium, feugiat orci a, tincidunt magna. Integer ultricies, elit semper lacinia euismod, nisi velit bibendum est, ut scelerisque augue enim non ante. Aenean tristique interdum neque, ut tristique purus vehicula ut. In pulvinar lacinia ultricies. Nullam eget massa gravida, euismod felis at, lobortis magna. Donec viverra imperdiet sollicitudin. Nullam arcu massa, varius ut orci a, finibus viverra nibh.
+<div class='project__details'>
+    <div class='project__details__left'>
+        <h4><span>Year Built:</span> 2022</h4>
+        <h4><span>Technology Used:</span> WordPress, PHP, Laravel Blade, JavaScript, SCSS, HTML</h4>
+    </div>
+    <div class='project__details__right'>
+        <h4><span>Designed by:</span> <a href='https://www.emmacathiedesign.co.uk/' target="_blank">Emma Cathie</a></h4>
+        <h4><span>Other Developers:</span> <a href='https://rush.computer/' target='_blank'>Rush Johnstone</a>, Drew Reilly</h4>
+    </div>
+</div>
 
-Nullam et vehicula lacus. Phasellus feugiat rhoncus mauris eget condimentum. Quisque sit amet ipsum vehicula, pretium felis vitae, bibendum tellus. Nunc fermentum, nunc sit amet rhoncus pulvinar, augue eros iaculis turpis, nec iaculis dolor velit id lorem. Vestibulum sit amet tellus ultrices, malesuada sapien non, accumsan metus. Aliquam erat volutpat. Cras pretium faucibus sem, a vehicula enim molestie in. In accumsan felis id augue volutpat sodales. Maecenas lobortis dapibus ligula in commodo. Donec dictum mauris eget molestie egestas. Quisque porttitor euismod arcu, vel hendrerit nunc sodales non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vitae hendrerit ipsum. Aliquam eget ultrices felis, imperdiet gravida lacus.
+<div class='site-link'>
+    <h4>Visit Site: </h4>
+    <a href='https://www.thekitchendepot.co.uk/' target='_blank' rel='noopener noreferrer'>https://www.thekitchendepot.co.uk/</a>
+</div>
 
-Maecenas pulvinar diam at vulputate volutpat. Suspendisse eros lorem, tincidunt quis fringilla ut, condimentum non neque. Vivamus eu tempus orci. Cras in ultrices lacus. Curabitur nunc mi, luctus convallis fringilla et, ullamcorper ut lectus. Vivamus non libero mauris. Integer nec libero consectetur, sodales lorem eu, rhoncus nisl. Nulla tempus elit in eros bibendum aliquet. Donec quis lorem ut mauris blandit dapibus eu vel diam. Cras lacus lectus, blandit sed elementum id, suscipit et purus.
+<img class='heroImg' src='./projectImages/tkdMain.png' alt='The Kitchen Depot Hero Image'>
 
-Donec finibus dignissim quam, et ultrices enim bibendum ut. Aenean facilisis eros vitae odio sagittis auctor. Nulla volutpat arcu ac nunc blandit, ac tincidunt neque lobortis. Nam euismod vehicula feugiat. Morbi ultricies velit bibendum massa mattis mollis. Maecenas ut tortor turpis. Curabitur ac laoreet ipsum, eget blandit odio. Nam neque purus, mollis vel tincidunt at, convallis ut dui. In tincidunt sit amet ex a volutpat. Nam dictum, ex in aliquet tristique, metus leo tristique nibh, a dignissim nibh neque ac risus. Suspendisse potenti.
+This was the first project I worked on as part of a team bigger than 2 during my time at Cole AD. This project came to us just after Rush joined the team and we opted for the divide and conquer approach to building.
 
-Quisque ullamcorper non ligula a aliquam. Vivamus consequat arcu eget suscipit lobortis. Duis semper cursus maximus. Ut elementum pulvinar urna pellentesque eleifend. Aliquam in efficitur ante, sed sagittis augue. Sed convallis id orci vel sagittis. Nullam elementum sit amet orci at rutrum. Curabitur vel quam sed ante scelerisque accumsan in quis felis. Vivamus ac sem ac urna posuere hendrerit. Ut ut lectus sit amet felis tempus semper. Nullam dapibus, mi sit amet laoreet viverra, odio neque aliquet lorem, varius dictum tellus neque in urna. Quisque suscipit velit nec nisi elementum, sed congue nunc hendrerit. Nunc eu vehicula nulla, ac tincidunt massa. Sed a pulvinar urna. Morbi consequat at turpis sit amet hendrerit.
+Each of us had a section of the site to complete, but each helped each other when required so got our fingers sticky in each aspect. This project was easily the biggest one undertaken by this point in my career, so I was grateful for the learning opportunity for both my skills and working as a multi-person team.
+
+The site was designed by one of the designers at Cole AD, Emma Cathie. Initially, the work was for the design team to create exterior signage but quickly became a website redesign and build. If you are interested in seeing more about her design process for this site, you can <a href='https://www.emmacathiedesign.co.uk/work/the-kitchen-depot' target='_blank'>read more about it here</a>.
+
+Once we had the site design, the base of the site was created by Rush using the blank template Sage by Roots.io. Working with Sage gave us an already structured theme which is easy to follow, as well as the already configured setup of Laravel Blade which makes templating much easier.
+
+My role within this build was to create some content blocks, configure blog posts with styling, and to customise their kitchen planner. The kitchen planner is an online tool to configure your dream kitchen from the options provided by The Kitchen Depot. It features two styles of kitchens with two different views, and a range of colour and material options for door styles, door colour, handles, floor, walls and worktop. Once you are done creating your dream kitchen, you can view a summary of your choices and are then presented with two options: book an appointment with the design team at The Kitchen Depot where your choices from the kitchen planner are sent through automatically, or to download your choices as a PDF which include a list of your choices as well as the rendered images of your kitchen.
+
+There was some other complex functionality integrated to this site by the other devlopers, including a custom Postcode lookup and the creation and filtering of the kitchens on the display pages. Whilst I did not create this functionality myself during this build, this is something I was able to learn by seeing what my fellow developers created and reading through their code.
+
+Multiple custom post types were integrated into the site. Each of these custom post types have their own custom archive page as well as individual layout. Also added into the site was <a href='https://kenwheeler.github.io/slick/' target='_blank'>slick</a> for use of custom carousels, and <a href='https://www.gravityforms.com/' target='_blank'>Gravity Forms</a> for creating custom forms.
+
+View some images of the site below, or take a look for yourself at <a href='https://www.thekitchendepot.co.uk/' target='_blank' rel='noopener noreferrer'>https://www.thekitchendepot.co.uk/</a>.

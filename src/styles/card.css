@@ -6,6 +6,9 @@
 }
 .card img {
   width: 55%;
+  aspect-ratio: 5/3;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card__text {
   text-align: right;

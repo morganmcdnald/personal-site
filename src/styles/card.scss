@@ -5,6 +5,8 @@
   padding: 50px 0;
   img {
     width: 55%;
+    aspect-ratio: 5 / 3;
+    object-fit: cover;
   }
   &__text {
     text-align: right;

@@ -1,19 +1,41 @@
 ---
 title: Renfrewshire Chamber of Commerce
 slug: renfrewshire-chamber-of-commerce
-excerpt: Working closely with the team at Renfrewshire Chamber of Commerce to overhaul their existing identity and website to showcase their modern ethos.
+excerpt: Custom built WordPress theme for Renfrewshire Chamber of Commerce to reflect their new brand identiy, with integration with Rubi CRM.
 featuredImg: renfrewMain.png
-tags: ['wordpress', 'laravel blade', 'php', 'scss']
+tags: ['wordpress', 'laravel blade', 'php', 'js', 'scss']
 priority: 1
 featured: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet risus vitae dolor pharetra, sed dignissim massa sollicitudin. Nam ac finibus tortor. Aliquam semper tempor eros at finibus. Fusce odio nisi, venenatis nec molestie in, tempus vitae magna. Sed bibendum eros quis odio volutpat, sit amet sodales erat tempus. Proin dignissim ultricies imperdiet. Donec a vestibulum lorem. Suspendisse suscipit neque id risus lobortis vestibulum vitae nec dui. In id odio pretium, feugiat orci a, tincidunt magna. Integer ultricies, elit semper lacinia euismod, nisi velit bibendum est, ut scelerisque augue enim non ante. Aenean tristique interdum neque, ut tristique purus vehicula ut. In pulvinar lacinia ultricies. Nullam eget massa gravida, euismod felis at, lobortis magna. Donec viverra imperdiet sollicitudin. Nullam arcu massa, varius ut orci a, finibus viverra nibh.
+<div class='project__details'>
+    <div class='project__details__left'>
+        <h4><span>Year Built:</span> 2022</h4>
+        <h4><span>Technology Used:</span> WordPress, PHP, Laravel Blade, JavaScript, SCSS, HTML, Rubi CRM</h4>
+    </div>
+    <div class='project__details__right'>
+        <h4><span>Designed by:</span> <a href='https://www.emmacathiedesign.co.uk/' target="_blank">Emma Cathie</a></h4>
+        <h4><span>Other Developers:</span> Drew Reilly</h4>
+    </div>
+</div>
 
-Nullam et vehicula lacus. Phasellus feugiat rhoncus mauris eget condimentum. Quisque sit amet ipsum vehicula, pretium felis vitae, bibendum tellus. Nunc fermentum, nunc sit amet rhoncus pulvinar, augue eros iaculis turpis, nec iaculis dolor velit id lorem. Vestibulum sit amet tellus ultrices, malesuada sapien non, accumsan metus. Aliquam erat volutpat. Cras pretium faucibus sem, a vehicula enim molestie in. In accumsan felis id augue volutpat sodales. Maecenas lobortis dapibus ligula in commodo. Donec dictum mauris eget molestie egestas. Quisque porttitor euismod arcu, vel hendrerit nunc sodales non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vitae hendrerit ipsum. Aliquam eget ultrices felis, imperdiet gravida lacus.
+<div class='site-link'>
+    <h4>Visit Site: </h4>
+    <a href='https://www.renfrewshirechamber.com/' target='_blank' rel='noopener noreferrer'>https://www.renfrewshirechamber.com/</a>
+</div>
 
-Maecenas pulvinar diam at vulputate volutpat. Suspendisse eros lorem, tincidunt quis fringilla ut, condimentum non neque. Vivamus eu tempus orci. Cras in ultrices lacus. Curabitur nunc mi, luctus convallis fringilla et, ullamcorper ut lectus. Vivamus non libero mauris. Integer nec libero consectetur, sodales lorem eu, rhoncus nisl. Nulla tempus elit in eros bibendum aliquet. Donec quis lorem ut mauris blandit dapibus eu vel diam. Cras lacus lectus, blandit sed elementum id, suscipit et purus.
+<img class='heroImg' src='./projectImages/renfrewMain.png' alt='Renfrewshire Chamber of Commerce Hero Image'>
 
-Donec finibus dignissim quam, et ultrices enim bibendum ut. Aenean facilisis eros vitae odio sagittis auctor. Nulla volutpat arcu ac nunc blandit, ac tincidunt neque lobortis. Nam euismod vehicula feugiat. Morbi ultricies velit bibendum massa mattis mollis. Maecenas ut tortor turpis. Curabitur ac laoreet ipsum, eget blandit odio. Nam neque purus, mollis vel tincidunt at, convallis ut dui. In tincidunt sit amet ex a volutpat. Nam dictum, ex in aliquet tristique, metus leo tristique nibh, a dignissim nibh neque ac risus. Suspendisse potenti.
+This was the first big project I worked on solo for a WordPress build during my time at Cole AD. I had been with the company in my first junior role for around 8 months when I was tasked with building out the main WordPress theme for this new build for Renfrewshire Chamber of Commerce.
 
-Quisque ullamcorper non ligula a aliquam. Vivamus consequat arcu eget suscipit lobortis. Duis semper cursus maximus. Ut elementum pulvinar urna pellentesque eleifend. Aliquam in efficitur ante, sed sagittis augue. Sed convallis id orci vel sagittis. Nullam elementum sit amet orci at rutrum. Curabitur vel quam sed ante scelerisque accumsan in quis felis. Vivamus ac sem ac urna posuere hendrerit. Ut ut lectus sit amet felis tempus semper. Nullam dapibus, mi sit amet laoreet viverra, odio neque aliquet lorem, varius dictum tellus neque in urna. Quisque suscipit velit nec nisi elementum, sed congue nunc hendrerit. Nunc eu vehicula nulla, ac tincidunt massa. Sed a pulvinar urna. Morbi consequat at turpis sit amet hendrerit.
+The site was designed by one of the designers at Cole AD, Emma Cathie. Initially, a rebranding design was done and then the design of the new website followed suit. If you are interested in seeing more about her design process for this site, you can <a href='https://www.emmacathiedesign.co.uk/work/renfrewshire-chamber-of-commerce' target='_blank'>read more about it here</a>.
+
+Once we had the site design, I began work on a new custom WordPress theme using the blank template Sage by Roots.io. Working with Sage gave me an already structured theme which is easy to follow, as well as the already configured setup of Laravel Blade which makes templating much easier.
+
+The process we used at Cole AD to make sites as customisable as possible for users was to build out the new theme with custom Gutenberg blocks using ACF. This allowed us to give as much freedom to the client as possible to make changes in the future themselves without the need to come back to us and wait for the changes to be made. This approach meant the client was able to add new blocks, re-order blocks and update the content within the blocks themselves. Some key elements, like the header and hero sections were always stuck to the top and the footer always stuck to the bottom, but between those elements the client had complete freedom.
+
+My senior developer, Drew Reilly, worked on the Rubi CRM portion of the website and directing the API to the WordPress site where I then handled the calls to display member events posted on the Rubi CRM site and listed them on the WordPress site where users are able to see a list or a detail-specific page.
+
+Multiple custom post types were integrated into the site, for things like events, members and staff. Each of these custom post types have their own custom archive page as well as individual layout. Also added into the site was <a href='https://kenwheeler.github.io/slick/' target='_blank'>slick</a> for use of custom carousels, <a href='https://leafletjs.com/' target='_blank'>Leaflet</a> for adding a custom map with pin to the contact page, and <a href='https://www.gravityforms.com/' target='_blank'>Gravity Forms</a> for creating custom forms for contact us, event enquiries and membership enquiries.
+
+View some images of the site below, or take a look for yourself at <a href='https://www.renfrewshirechamber.com/' target='_blank' rel='noopener noreferrer'>https://www.renfrewshirechamber.com/</a>.

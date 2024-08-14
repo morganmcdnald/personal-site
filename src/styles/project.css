@@ -1,0 +1,90 @@
+.project {
+  padding: 50px 30px;
+}
+.project h2 {
+  font-size: 48px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  max-width: 80%;
+  text-transform: lowercase;
+}
+.project .heroImg {
+  width: 100%;
+  margin: 0 auto 75px auto;
+  display: flex;
+  aspect-ratio: 5/3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project__details {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.project__details__left {
+  width: 65%;
+}
+.project__details__left h4 {
+  font-size: 20px;
+  font-family: "CalibreLight", sans-serif;
+}
+.project__details__left h4 span {
+  font-family: "CalibreReg", sans-serif;
+}
+.project__details__right {
+  width: 35%;
+}
+.project__details__right h4 {
+  font-size: 20px;
+  font-family: "CalibreLight", sans-serif;
+}
+.project__details__right h4 span {
+  font-family: "CalibreReg", sans-serif;
+}
+.project__details__right h4 a {
+  font-family: "CalibreLight", sans-serif;
+  border-bottom: 1px solid #fff;
+  transition: color 0.4s ease, border 0.4s ease;
+}
+.project__details__right h4 a:hover {
+  color: #7a00c1;
+  border-bottom: 1px solid #7a00c1;
+}
+.project .site-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 75px;
+}
+.project .site-link h4 {
+  margin-right: 7px;
+  font-size: 20px;
+  font-family: "CalibreReg", sans-serif;
+}
+.project .site-link a {
+  font-size: 20px;
+  font-family: "CalibreLight", sans-serif;
+  border-bottom: 1px solid #fff;
+  transition: color 0.4s ease, border 0.4s ease;
+}
+.project .site-link a:hover {
+  color: #7a00c1;
+  border-bottom: 1px solid #7a00c1;
+}
+.project p {
+  width: 70%;
+  margin: 0 auto 35px auto;
+  font-size: 20px;
+}
+.project p a {
+  font-family: "CalibreReg";
+  border-bottom: 1px solid #fff;
+  transition: color 0.4s ease, border 0.4s ease;
+}
+.project p a:hover {
+  color: #7a00c1;
+  border-bottom: 1px solid #7a00c1;
+}
+.project p:first-of-type {
+  font-size: 22px;
+}/*# sourceMappingURL=project.css.map */
