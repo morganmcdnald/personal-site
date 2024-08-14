@@ -1,0 +1,60 @@
+.contact {
+  margin: 25px 0 100px 0;
+}
+.contact h3 {
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+.contact p {
+  margin: 0;
+  font-size: 18px;
+}
+.contact p a {
+  font-family: "CalibreReg", sans-serif;
+  transition: color 0.4s ease;
+}
+.contact p a:hover {
+  color: #7a00c1;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 25px;
+}
+.contact form label {
+  font-family: "ClassyVouge", serif;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact form .contact-input-wrapepr {
+  display: flex;
+  flex-direction: row;
+}
+.contact form input,
+.contact form textarea {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  flex: 1;
+  color: #fff;
+  font-family: "CalibreLight", sans-serif;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.contact form input[type=submit] {
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  font-family: "ClassyVouge", serif;
+  font-size: 22px;
+  text-align: right;
+}
+.contact form .submit-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}/*# sourceMappingURL=contact.css.map */
