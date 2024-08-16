@@ -25,7 +25,13 @@ const { title, excerpt, featuredImg, slug, tags } = Astro.props as Props;
       {tags.map((tag) => <span>{tag}</span>)}
     </div>
     <div class='button'>
-      <a href=`/${slug}`>view project <img src={arrow.src} /></a>
+      <a href=`/${slug}`
+        >view project <img
+          src={arrow.src}
+          alt='decorative arrow'
+          loading='lazy'
+        /></a
+      >
     </div>
   </div>
 </div>

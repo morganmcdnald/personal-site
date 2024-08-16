@@ -2,7 +2,7 @@
 title: Renfrewshire Chamber of Commerce
 slug: renfrewshire-chamber-of-commerce
 excerpt: Custom built WordPress theme for Renfrewshire Chamber of Commerce to reflect their new brand identiy, with integration with Rubi CRM.
-featuredImg: renfrewMain.png
+featuredImg: renfrewMain.webp
 tags: ['wordpress', 'laravel blade', 'php', 'js', 'scss']
 priority: 1
 featured: true
@@ -24,7 +24,7 @@ featured: true
     <a href='https://www.renfrewshirechamber.com/' target='_blank' rel='noopener noreferrer'>https://www.renfrewshirechamber.com/</a>
 </div>
 
-<img class='heroImg' src='./projectImages/renfrewMain.png' alt='Renfrewshire Chamber of Commerce Hero Image'>
+<img class='heroImg' src='./projectImages/renfrewMain.webp' alt='Renfrewshire Chamber of Commerce Hero Image'>
 
 This was the first big project I worked on solo for a WordPress build during my time at Cole AD. I had been with the company in my first junior role for around 8 months when I was tasked with building out the main WordPress theme for this new build for Renfrewshire Chamber of Commerce.
 

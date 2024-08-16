@@ -1,0 +1,38 @@
+.privacy-policy {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 30px;
+  h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+}
+
+.licensing {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 30px;
+  h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+  p {
+    font-size: 22px;
+  }
+  ul {
+    list-style: circle;
+    padding-left: 20px;
+    li {
+      font-size: 20px;
+      a {
+        font-family: 'CalibreReg', sans-serif;
+        border-bottom: 1px solid #fff;
+        transition: color 0.4s ease, border 0.4s ease;
+        &:hover {
+          color: #7a00c1;
+          border-bottom: 1px solid #7a00c1;
+        }
+      }
+    }
+  }
+}

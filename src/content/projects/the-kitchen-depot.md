@@ -2,9 +2,9 @@
 title: The Kitchen Depot
 slug: the-kitchen-depot
 excerpt: Custom built WordPress theme for The Kitchen Depot for a fresher look and an easier to manage site, with a focus on user experience.
-featuredImg: tkdMain.png
+featuredImg: tkdMain.webp
 tags: ['wordpress', 'laravel blade', 'php', 'js', 'scss']
-priority: 2
+priority: 3
 featured: true
 ---
 
@@ -24,7 +24,7 @@ featured: true
     <a href='https://www.thekitchendepot.co.uk/' target='_blank' rel='noopener noreferrer'>https://www.thekitchendepot.co.uk/</a>
 </div>
 
-<img class='heroImg' src='./projectImages/tkdMain.png' alt='The Kitchen Depot Hero Image'>
+<img class='heroImg' src='./projectImages/tkdMain.webp' alt='The Kitchen Depot Hero Image'>
 
 This was the first project I worked on as part of a team bigger than 2 during my time at Cole AD. This project came to us just after Rush joined the team and we opted for the divide and conquer approach to building.
 

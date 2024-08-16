@@ -35,9 +35,11 @@ import { Image } from 'astro:assets';
           <i class='fa-brands fa-wordpress'></i> WordPress
         </div>
         <div class='skill'><i class='fa-brands fa-react'></i> React</div>
-        <div class='skill'><img src={next.src} alt='NextJS logo' /> NextJS</div>
         <div class='skill'>
-          <img src={astro.src} alt='AstroJS logo' /> Astro
+          <img src={next.src} alt='NextJS logo' loading='lazy' /> NextJS
+        </div>
+        <div class='skill'>
+          <img src={astro.src} alt='AstroJS logo' loading='lazy' /> Astro
         </div>
         <div class='skill'>
           <i class='fa-brands fa-laravel'></i> Laravel Blade

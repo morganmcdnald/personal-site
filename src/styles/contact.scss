@@ -32,7 +32,7 @@
     input,
     textarea {
       background: none;
-      outline: none;
+      // outline: none;
       border: none;
       border-bottom: 1px solid #fff;
       flex: 1;
@@ -52,8 +52,8 @@
     .submit-wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: end;
+      justify-content: end;
+      align-items: center;
     }
   }
 }

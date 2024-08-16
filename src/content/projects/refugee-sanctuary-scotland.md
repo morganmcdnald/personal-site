@@ -2,9 +2,9 @@
 title: Refugee Sanctuary Scotland
 slug: refugee-sanctuary-scotland
 excerpt: Custom built WordPress theme for Refugee Sanctuary Scotland for a complete site overhaul in line with their new branding, with a focus on accessibility and user experience.
-featuredImg: refugeeMain.png
+featuredImg: refugeeMain.webp
 tags: ['wordpress', 'laravel blade', 'php', 'js', 'scss']
-priority: 3
+priority: 2
 featured: true
 ---
 
@@ -24,7 +24,7 @@ featured: true
     <a href='https://refugeesanctuaryscotland.org.uk/' target='_blank' rel='noopener noreferrer'>https://refugeesanctuaryscotland.org.uk/</a>
 </div>
 
-<img class='heroImg' src='./projectImages/refugeeMain.png' alt='Refugee Sanctuary Scotland Hero Image'>
+<img class='heroImg' src='./projectImages/refugeeMain.webp' alt='Refugee Sanctuary Scotland Hero Image'>
 
 This was a project I worked on with Rush during my time as Senior Developer at Cole AD. This project came to us after the design team had created a successful rebrand and the client decided to use us to create a brand new website to match.
 
