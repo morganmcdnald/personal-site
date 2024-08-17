@@ -20,7 +20,7 @@ This was a project I worked on with Rush during my time as Senior Developer at C
 As Rush was working part-time during the build of this site, I took the lead on the build however the finished product was very much a team effort. With each passing project, we got better at working with each other and it reflected in our results.
 
 <div class='project-image'>
-    <img src='./projectImages/refugee/refugeeMobile.webp' alt='Picture showing different examples of responsive mobile design on the Refugee Sanctuary Scotland site' loading='lazy'>
+    <img src='/projectImages/refugee/refugeeMobile.webp' alt='Picture showing different examples of responsive mobile design on the Refugee Sanctuary Scotland site' loading='lazy'>
 </div>
 
 The site was designed by one of the designers at Cole AD, Emma Cathie. Initially, a full rebrand for the client formerly known as Refugee Survival Trust, which then rolled into a brand new site with a full design using the new branding.
@@ -29,7 +29,7 @@ Once we had the site design, Rush and I divvied up the tasks needed to be comple
 
 <div class='project-image'>
     <video autoplay loop >
-        <source src="./projectImages/refugee/refugeeDemo.webm" type="video/webm" />
+        <source src="/projectImages/refugee/refugeeDemo.webm" type="video/webm" />
     </video>
 </div>
 
