@@ -1,7 +1,7 @@
 .privacy-policy {
   width: 65%;
   margin: 0 auto;
-  padding: 50px 30px;
+  padding: 50px;
 }
 .privacy-policy h1 {
   font-size: 42px;
@@ -11,7 +11,7 @@
 .licensing {
   width: 65%;
   margin: 0 auto;
-  padding: 50px 30px;
+  padding: 50px;
 }
 .licensing h1 {
   font-size: 42px;
@@ -35,4 +35,20 @@
 .licensing ul li a:hover {
   color: #7a00c1;
   border-bottom: 1px solid #7a00c1;
+}
+
+@media screen and (max-width: 950px) {
+  .privacy-policy,
+  .licensing {
+    width: 85%;
+  }
+  .licensing {
+    padding: 75px 0;
+  }
+}
+@media screen and (max-width: 667px) {
+  .privacy-policy,
+  .licensing {
+    width: 95%;
+  }
 }/*# sourceMappingURL=legal.css.map */

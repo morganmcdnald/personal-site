@@ -12,7 +12,7 @@ export interface Props {
 const {
   headingOne = 'morgan mcdonald',
   headingTwo = 'front-end developer',
-  headingThree = 'glasgow, scotland',
+  headingThree = 'ayrshire, scotland',
 } = Astro.props as Props;
 ---
 
@@ -24,7 +24,7 @@ const {
   data-aos-duration='500'
   data-aos-easing='ease-in-out'
   data-aos-mirror='true'
-  data-aos-once='false'
+  data-aos-once='true'
   data-aos-anchor-placement='top-center'
 >
   <section class='hero'>
@@ -36,7 +36,11 @@ const {
       </div>
       <div class='hero__text__button'>
         <a href='#work'
-          >view my work <img src={arrow.src} alt='decorative arrow' /></a
+          >view my work <img
+            src={arrow.src}
+            class='hero-arrow'
+            alt='decorative arrow'
+          /></a
         >
       </div>
     </div>

@@ -14,7 +14,7 @@ import { Image } from 'astro:assets';
   data-aos-duration='700'
   data-aos-easing='ease-in-out'
   data-aos-mirror='true'
-  data-aos-once='false'
+  data-aos-once='true'
   data-aos-anchor-placement='top-center'
 >
   <div class='container'>
@@ -41,23 +41,25 @@ import { Image } from 'astro:assets';
       </div>
       <div class='about__skills'>
         <h4>My Skills</h4>
-        <div class='skill'><i class='fa-brands fa-js'></i> JavaScript</div>
-        <div class='skill'>
-          <i class='fa-brands fa-wordpress'></i> WordPress
+        <div class='skills-list'>
+          <div class='skill'><i class='fa-brands fa-js'></i> JavaScript</div>
+          <div class='skill'>
+            <i class='fa-brands fa-wordpress'></i> WordPress
+          </div>
+          <div class='skill'><i class='fa-brands fa-react'></i> React</div>
+          <div class='skill'>
+            <img src={next.src} alt='NextJS logo' loading='lazy' /> NextJS
+          </div>
+          <div class='skill'>
+            <img src={astro.src} alt='AstroJS logo' loading='lazy' /> Astro
+          </div>
+          <div class='skill'>
+            <i class='fa-brands fa-laravel'></i> Laravel Blade
+          </div>
+          <div class='skill'><i class='fa-brands fa-php'></i> PHP</div>
+          <div class='skill'><i class='fa-brands fa-sass'></i> SCSS</div>
+          <div class='skill'><i class='fa-brands fa-html5'></i> HTML</div>
         </div>
-        <div class='skill'><i class='fa-brands fa-react'></i> React</div>
-        <div class='skill'>
-          <img src={next.src} alt='NextJS logo' loading='lazy' /> NextJS
-        </div>
-        <div class='skill'>
-          <img src={astro.src} alt='AstroJS logo' loading='lazy' /> Astro
-        </div>
-        <div class='skill'>
-          <i class='fa-brands fa-laravel'></i> Laravel Blade
-        </div>
-        <div class='skill'><i class='fa-brands fa-php'></i> PHP</div>
-        <div class='skill'><i class='fa-brands fa-sass'></i> SCSS</div>
-        <div class='skill'><i class='fa-brands fa-html5'></i> HTML</div>
       </div>
     </div>
   </div>

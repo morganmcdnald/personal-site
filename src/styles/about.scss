@@ -1,5 +1,5 @@
 .about {
-  padding: 100px 30px;
+  padding: 100px 50px;
   h3 {
     font-size: 38px;
     margin-bottom: 25px;
@@ -40,6 +40,60 @@
       }
       font-size: 18px;
       font-family: 'CalibreReg', sans-serif;
+    }
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .about {
+    &__skills {
+      margin-left: 75px;
+    }
+  }
+}
+@media screen and (max-width: 987px) {
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 75px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about {
+    .about-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    &__text {
+      width: 80%;
+    }
+    &__skills {
+      margin-left: 0;
+      padding-top: 25px;
+      .skills-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        width: 80%;
+        .skill {
+          margin-right: 15px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about {
+    &__text {
+      width: 100%;
+    }
+    &__skills {
+      .skills-list {
+        width: 100%;
+      }
     }
   }
 }

@@ -7,9 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 50px;
     z-index: 1;
     position: relative;
+    @media screen and (max-width: 450px) {
+      padding: 0 25px;
+    }
   }
 
   img {
@@ -28,6 +31,47 @@
         a {
           color: #fff;
           font-size: 28px;
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 560px) {
+  .header {
+    .container {
+      nav {
+        ul {
+          li {
+            padding: 0 10px;
+            &:last-of-type {
+              padding: 0 0px 0 10px;
+            }
+            a {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header {
+    .container {
+      nav {
+        ul {
+          li {
+            padding: 0 7px;
+            &:last-of-type {
+              padding: 0 0px 0 7px;
+            }
+            a {
+              font-size: 18px;
+            }
+          }
         }
       }
     }

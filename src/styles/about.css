@@ -1,5 +1,5 @@
 .about {
-  padding: 100px 30px;
+  padding: 100px 50px;
 }
 .about h3 {
   font-size: 38px;
@@ -42,4 +42,49 @@
 .about__skills .skill img {
   width: 20px;
   margin-right: 8px;
+}
+
+@media screen and (max-width: 975px) {
+  .about__skills {
+    margin-left: 75px;
+  }
+}
+@media screen and (max-width: 987px) {
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 75px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__text {
+    width: 80%;
+  }
+  .about__skills {
+    margin-left: 0;
+    padding-top: 25px;
+  }
+  .about__skills .skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    width: 80%;
+  }
+  .about__skills .skills-list .skill {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .about__text {
+    width: 100%;
+  }
+  .about__skills .skills-list {
+    width: 100%;
+  }
 }/*# sourceMappingURL=about.css.map */

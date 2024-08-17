@@ -1,5 +1,5 @@
 .project {
-  padding: 50px 30px;
+  padding: 50px;
 }
 .project h2 {
   font-size: 48px;
@@ -99,4 +99,38 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .project__details {
+    flex-direction: column;
+  }
+  .project__details__left {
+    width: 100%;
+  }
+  .project__details__right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .project h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .project .site-link {
+    margin-bottom: 40px;
+  }
+  .project p {
+    width: 90%;
+  }
+  .project .project-image {
+    width: 100%;
+    padding: 25px;
+    margin: 50px auto;
+  }
 }/*# sourceMappingURL=project.css.map */

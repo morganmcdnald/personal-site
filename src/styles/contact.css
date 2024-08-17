@@ -41,6 +41,7 @@
   font-family: "CalibreLight", sans-serif;
   font-size: 18px;
   margin-bottom: 50px;
+  outline: none;
 }
 .contact form input[type=submit] {
   border: none;
@@ -56,4 +57,18 @@
   flex-direction: row;
   justify-content: end;
   align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .contact {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    margin-bottom: 50px;
+  }
+  .contact form .contact-input-wrapepr {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=contact.css.map */

@@ -1,7 +1,7 @@
 .privacy-policy {
   width: 65%;
   margin: 0 auto;
-  padding: 50px 30px;
+  padding: 50px;
   h1 {
     font-size: 42px;
     margin-bottom: 50px;
@@ -11,7 +11,7 @@
 .licensing {
   width: 65%;
   margin: 0 auto;
-  padding: 50px 30px;
+  padding: 50px;
   h1 {
     font-size: 42px;
     margin-bottom: 50px;
@@ -34,5 +34,22 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .privacy-policy,
+  .licensing {
+    width: 85%;
+  }
+  .licensing {
+    padding: 75px 0;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .privacy-policy,
+  .licensing {
+    width: 95%;
   }
 }

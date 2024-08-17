@@ -84,5 +84,10 @@ body h4 {
 body .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 50px;
+}
+@media screen and (max-width: 450px) {
+  body .container {
+    padding: 0 25px;
+  }
 }/*# sourceMappingURL=global.css.map */
