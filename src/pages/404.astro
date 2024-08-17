@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import img404 from '../images/404.svg';
+import '../styles/fourohfour.css';
+---
+
+<Layout title='404 Page Not Found'>
+  <div class='container'>
+    <section class='fourohfour'>
+      <div class='fourohfour__left'>
+        <h1>Oops! That page doesn't exist</h1>
+        <p>
+          You can <a href='/'>return to home</a> or <a
+            href='mailto:hello@morganmcdonald.co.uk'>send me an email</a
+          > and let me know what went wrong!
+        </p>
+      </div>
+      <div class='fourohfour__right'>
+        <Image src={img404} alt='404' width={500} />
+      </div>
+    </section>
+  </div>
+</Layout>

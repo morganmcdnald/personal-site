@@ -55,6 +55,9 @@ body {
   color: var(--primary-colour);
   overflow-x: hidden;
 }
+body section {
+  scroll-margin-top: 100px;
+}
 body a {
   text-decoration: none;
   color: var(--primary-colour);

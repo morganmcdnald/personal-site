@@ -1,0 +1,28 @@
+.fourohfour {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 30px;
+}
+.fourohfour__left {
+  padding-right: 40px;
+}
+.fourohfour__left h1 {
+  font-size: 48px;
+}
+.fourohfour__left p {
+  font-size: 22px;
+}
+.fourohfour__left p a {
+  font-family: "CalibreReg";
+  border-bottom: 1px solid #fff;
+  transition: color 0.4s ease, border-bottom 0.4s ease;
+}
+.fourohfour__left p a:hover {
+  color: #7a00c1;
+  border-bottom: 1px solid #7a00c1;
+}
+.fourohfour__right {
+  padding-left: 40px;
+}/*# sourceMappingURL=fourohfour.css.map */
