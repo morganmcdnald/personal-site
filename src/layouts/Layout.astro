@@ -28,6 +28,18 @@ const { title = 'Morgan McDonald' } = Astro.props as Props;
       referrerpolicy='no-referrer'
     />
     <link rel='shortcut icon' href={logo.src} type='image/x-icon' />
+    <!-- Google tag (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-LXHN3K2WBP'
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-LXHN3K2WBP');
+    </script>
     <ViewTransitions />
     <title>{SITE_TITLE} | {title}</title>
   </head>
