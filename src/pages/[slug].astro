@@ -21,8 +21,60 @@ const { Content, frontmatter } = Astro.props.project;
 <Layout title={frontmatter.title}>
   <section class='project'>
     <div class='container'>
-      <a href='/'>&larr; Back</a>
+      <a href='javascript:history.back(1)'>&larr; Back</a>
       <h2>{frontmatter.title}</h2>
+      <div class='project__details'>
+        <div class='project__details__left'>
+          <h4><span>Year Built:</span> {frontmatter.yearBuilt}</h4>
+          <h4>
+            <span>Technology Used:</span>
+            {frontmatter.tech}
+          </h4>
+        </div>
+        <div class='project__details__right'>
+          <h4>
+            <span>Designed by:</span>
+            {
+              frontmatter.designedByURL ? (
+                <a href={frontmatter.designedByURL} target='_blank'>
+                  {frontmatter.designedBy}
+                </a>
+              ) : (
+                `${frontmatter.designedBy}`
+              )
+            }
+          </h4>
+          <h4>
+            <span>Other Developers:</span>
+            {
+              frontmatter.developer1URL ? (
+                <a href={frontmatter.developer1URL} target='_blank'>
+                  {frontmatter.developer1}
+                </a>
+              ) : (
+                `${frontmatter.developer1}`
+              )
+            }
+            {frontmatter.developer2 ? `, ${frontmatter.developer2}` : ``}
+          </h4>
+        </div>
+      </div>
+
+      <div class='site-link'>
+        <h4>Visit Site:</h4>
+        <a href={frontmatter.siteURL} target='_blank' rel='noopener noreferrer'
+          >{frontmatter.siteURL}</a
+        >
+      </div>
+
+      <img
+        transition:name={frontmatter.slug}
+        transition:animate='initial'
+        class='heroImg'
+        src=`./projectImages/${frontmatter.featuredImg}`
+        alt=`${frontmatter.title} Hero Image`
+      />
+
       <Content />
     </div>
   </section>

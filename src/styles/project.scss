@@ -86,4 +86,15 @@
       font-size: 22px;
     }
   }
+  .project-image {
+    width: 80%;
+    margin: 75px auto;
+    padding: 50px;
+    background-color: #1e012f;
+    img,
+    video {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }

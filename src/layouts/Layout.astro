@@ -3,7 +3,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import logo from '../images/logo-new.svg';
 import '../styles/global.css';
+import 'aos/dist/aos.css';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../constants';
+import { ViewTransitions } from 'astro:transitions';
 
 export interface Props {
   title?: string;
@@ -26,6 +28,7 @@ const { title = 'Morgan McDonald' } = Astro.props as Props;
       referrerpolicy='no-referrer'
     />
     <link rel='shortcut icon' href={logo.src} type='image/x-icon' />
+    <ViewTransitions />
     <title>{SITE_TITLE} | {title}</title>
   </head>
   <body>
@@ -34,3 +37,8 @@ const { title = 'Morgan McDonald' } = Astro.props as Props;
     <Footer />
   </body>
 </html>
+
+<script>
+  import AOS from 'aos';
+  AOS.init();
+</script>

@@ -1,5 +1,4 @@
 ---
-import type { arrayOutputType } from 'astro/zod';
 import arrow from '../images/arrow.svg';
 import '../styles/card.css';
 
@@ -13,8 +12,22 @@ export interface Props {
 const { title, excerpt, featuredImg, slug, tags } = Astro.props as Props;
 ---
 
-<div class='card'>
-  <img src=`/projectImages/${featuredImg}` alt='' />
+<div
+  class='card'
+  data-aos='fade-up'
+  data-aos-offset='0'
+  data-aos-delay='50'
+  data-aos-duration='500'
+  data-aos-easing='ease-in-out'
+  data-aos-mirror='true'
+  data-aos-once='false'
+  data-aos-anchor-placement='top-center'
+>
+  <img
+    transition:name=`${slug}`
+    transition:animate='initial'
+    src=`/projectImages/${featuredImg}`
+  />
   <div class='card__text'>
     <h5>featured project</h5>
     <h4>{title}</h4>

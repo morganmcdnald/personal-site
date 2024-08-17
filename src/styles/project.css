@@ -87,4 +87,16 @@
 }
 .project p:first-of-type {
   font-size: 22px;
+}
+.project .project-image {
+  width: 80%;
+  margin: 75px auto;
+  padding: 50px;
+  background-color: #1e012f;
+}
+.project .project-image img,
+.project .project-image video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=project.css.map */
