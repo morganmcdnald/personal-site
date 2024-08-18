@@ -12,20 +12,11 @@ export interface Props {
 const { title, excerpt, featuredImg, slug, tags } = Astro.props as Props;
 ---
 
-<div
-  class='card'
-  data-aos='fade-up'
-  data-aos-offset='0'
-  data-aos-delay='50'
-  data-aos-duration='500'
-  data-aos-easing='ease-in-out'
-  data-aos-mirror='true'
-  data-aos-once='true'
-  data-aos-anchor-placement='top-center'
->
+<div class='card'>
   <img
     transition:name=`${slug}`
     transition:animate='initial'
+    transition:persist
     src=`/projectImages/${featuredImg}`
   />
   <div class='card__text'>

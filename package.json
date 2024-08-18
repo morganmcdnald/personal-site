@@ -10,7 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "astro": "^4.13.2"
   }
 }

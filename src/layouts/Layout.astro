@@ -3,7 +3,6 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import logo from '../images/logo-new.svg';
 import '../styles/global.css';
-import 'aos/dist/aos.css';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../constants';
 import { ViewTransitions } from 'astro:transitions';
 
@@ -49,8 +48,3 @@ const { title = 'Morgan McDonald' } = Astro.props as Props;
     <Footer />
   </body>
 </html>
-
-<script>
-  import AOS from 'aos';
-  AOS.init();
-</script>

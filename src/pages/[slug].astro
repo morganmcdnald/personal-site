@@ -70,6 +70,7 @@ const { Content, frontmatter } = Astro.props.project;
       <img
         transition:name={frontmatter.slug}
         transition:animate='initial'
+        transition:persist
         class='heroImg'
         src=`/projectImages/${frontmatter.featuredImg}`
         alt=`${frontmatter.title} Hero Image`
