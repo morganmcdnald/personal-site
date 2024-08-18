@@ -16,7 +16,6 @@ const { title, excerpt, featuredImg, slug, tags } = Astro.props as Props;
   <img
     transition:name=`${slug}`
     transition:animate='initial'
-    transition:persist
     src=`/projectImages/${featuredImg}`
   />
   <div class='card__text'>
